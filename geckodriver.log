@@ -1,0 +1,248 @@
+1602583794695	geckodriver	INFO	Listening on 127.0.0.1:61128
+1602583795087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileJkXFW8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602583807790	Marionette	INFO	Listening on port 61141
+1602583807873	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602584427859	Marionette	INFO	Stopped listening on port 61141
+1602584473505	geckodriver	INFO	Listening on 127.0.0.1:61424
+1602584474518	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilecnMdXC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602584480092	Marionette	INFO	Listening on port 61436
+1602584480147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602584500688	geckodriver	INFO	Listening on 127.0.0.1:61554
+1602584501698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilelvBfoQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602584506831	Marionette	INFO	Listening on port 61565
+1602584506911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602584531386	Marionette	INFO	Stopped listening on port 61565
+1602584534768	geckodriver	INFO	Listening on 127.0.0.1:61684
+1602584535742	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileRaka7N"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602584541395	Marionette	INFO	Listening on port 61695
+1602584541444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602584587890	geckodriver	INFO	Listening on 127.0.0.1:61827
+1602584588904	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileyBChZ6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602584594374	Marionette	INFO	Listening on port 61840
+1602584594405	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602584597699	Marionette	INFO	Stopped listening on port 61840
+1602584601048	Marionette	INFO	Stopped listening on port 61436
+1602584603298	Marionette	INFO	Stopped listening on port 61695
+1602584606148	geckodriver	INFO	Listening on 127.0.0.1:61937
+1602584607156	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilexiv3TG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602584612062	Marionette	INFO	Listening on port 61948
+1602584612147	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+1602585307054	geckodriver	INFO	Listening on 127.0.0.1:62164
+1602585308072	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileHzrwY5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602585314896	Marionette	INFO	Listening on port 62176
+1602585315002	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602585360763	Marionette	INFO	Stopped listening on port 61948
+1602585362917	Marionette	INFO	Stopped listening on port 62176
+1602585367083	geckodriver	INFO	Listening on 127.0.0.1:62267
+1602585368094	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilesb1mED"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602585373139	Marionette	INFO	Listening on port 62278
+1602585373191	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602585571774	geckodriver	INFO	Listening on 127.0.0.1:62436
+1602585572795	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileYRpmxN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602585578058	Marionette	INFO	Listening on port 62447
+1602585578093	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602585581159	Marionette	ERROR	[16] No reply from Marionette:Register
+1602585581496	Marionette	INFO	Stopped listening on port 62447
+1602585666336	Marionette	INFO	Stopped listening on port 62278
+1602585668831	geckodriver	INFO	Listening on 127.0.0.1:62552
+1602585669846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilelvTAJg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602585674847	Marionette	INFO	Listening on port 62563
+1602585674897	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602586325441	geckodriver	INFO	Listening on 127.0.0.1:62812
+1602586326485	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileVfBzIK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602586332084	Marionette	INFO	Listening on port 62823
+1602586332131	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602586334206	Marionette	ERROR	[19] No reply from Marionette:Register
+1602586334506	Marionette	INFO	Stopped listening on port 62823
+1602586372009	geckodriver	INFO	Listening on 127.0.0.1:62922
+1602586373029	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileNnfSwu"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602586378117	Marionette	INFO	Listening on port 62933
+1602586378216	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602586404770	geckodriver	INFO	Listening on 127.0.0.1:63029
+1602586405774	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile7bSulr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602586411133	Marionette	INFO	Listening on port 63040
+1602586411153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602586449306	geckodriver	INFO	Listening on 127.0.0.1:63141
+1602586450324	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileHDqrH7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602586460038	Marionette	INFO	Stopped listening on port 62563
+1602586464570	Marionette	INFO	Stopped listening on port 62933
+1602586466248	Marionette	INFO	Stopped listening on port 63040
+1602586483398	geckodriver	INFO	Listening on 127.0.0.1:63375
+1602586484409	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileWYQKcG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602586489346	Marionette	INFO	Listening on port 63386
+1602586489408	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602586991756	geckodriver	INFO	Listening on 127.0.0.1:63660
+1602586992781	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileZQc8DN"
+1602587023673	geckodriver	INFO	Listening on 127.0.0.1:63700
+1602587024689	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileMABVl4"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602587031038	Marionette	INFO	Listening on port 63712
+1602587031096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602587093362	geckodriver	INFO	Listening on 127.0.0.1:63850
+1602587094390	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilevsQ4tn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602587099460	Marionette	INFO	Listening on port 63861
+1602587099516	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602587297949	Marionette	INFO	Stopped listening on port 63386
+1602587300984	Marionette	INFO	Stopped listening on port 63712
+1602587303237	Marionette	INFO	Stopped listening on port 63861
+1602587307944	geckodriver	INFO	Listening on 127.0.0.1:64045
+1602587308997	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileeEoFND"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602587314170	Marionette	INFO	Listening on port 64056
+1602587314227	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602587316569	Marionette	ERROR	[19] No reply from Marionette:Register
+1602587316877	Marionette	INFO	Stopped listening on port 64056
+1602587330921	geckodriver	INFO	Listening on 127.0.0.1:64141
+1602587331936	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilewdtmvZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602587336705	Marionette	INFO	Listening on port 64152
+1602587336806	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://portal.postnord.com"
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2274))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 186: TypeError: rule is undefined
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: "isValidHoverTarget rejected with unexpected reason:"
+console.error: (new TypeError("rule is undefined", "resource://devtools/client/inspector/rules/utils/utils.js", 186))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:989:5\nhandler@resource://devtools/shared/protocol/Actor.js:166:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:989:5)", "resource://devtools/shared/protocol/Front.js", 327))
+1602591045729	Marionette	INFO	Stopped listening on port 64152
+1602591050210	geckodriver	INFO	Listening on 127.0.0.1:64905
+1602591051240	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileoKOc2m"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602591056581	Marionette	INFO	Listening on port 64916
+1602591056642	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602591060384	Marionette	ERROR	[19] No reply from Marionette:Register
+1602591060711	Marionette	INFO	Stopped listening on port 64916
+1602591068201	geckodriver	INFO	Listening on 127.0.0.1:65010
+1602591069218	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileHGr5Va"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602591073992	Marionette	INFO	Listening on port 65022
+1602591074040	Marionette	WARN	TLS certificate errors will be ignored for this session

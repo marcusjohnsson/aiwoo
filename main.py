@@ -1,102 +1,94 @@
 from aiwoo_api import *
 from config import *
-import pickle
+from selenium import webdriver
+import time
 
+def login_to_postnord():
 
-# Fetch all customers from server
-def fetch_all_customers():
-    print("Fetching all customers...")
-    all_customers = []
-    fetching = True
-    data = {
-        "page": 1,
-        "per_page": 100
-    }
+    driver = webdriver.Firefox()
+    driver.get('https://portal.postnord.com/login/')
 
-    while fetching:
-        if len(customers(data)) == 0:
-            print(f'Fetching complete: {len(all_customers)} customers acquired')
-            all_customers_sorted = sorted(all_customers, key=lambda k: k['first_name'])
-            return all_customers_sorted
-        else:
-            for c in customers(data):
-                all_customers.append(c)
-        print(f'Page @ {data["page"]} | {len(all_customers)} acquired')
-        data['page'] += 1
+    time.sleep(5)
 
+    # Accept cookies
+    accept_all_cookies_button_xpath = '//*[@id="onetrust-accept-btn-handler"]'
+    accept_cookies = driver.find_element_by_xpath(accept_all_cookies_button_xpath)
+    accept_cookies.click()
 
-# Fetch all orders from server
-def fetch_all_orders(status):
-    print(f"Fetching all {status} orders...")
-    all_orders = []
-    fetching = True
-    data = {
-        "page": 1,
-        "per_page": 100,
-        "status": status
-    }
+    time.sleep(2)
 
-    while fetching:
-        if len(orders(data)) == 0:
-            print(f'Fetching complete: {len(all_orders)} {status} orders acquired')
-            all_orders_sorted = sorted(all_orders, key=lambda k: k['id'])
-            return all_orders_sorted
-        else:
-            for c in orders(data):
-                all_orders.append(c)
+    # Fill in credentials and login
+    email_field_xpath = '//*[@id="email"]'
+    password_field_xpath = '//*[@id="password"]'
+    login_button_xpath = '/html/body/app-root/app-start/div[1]/form/pn-button-container/button'
+    email_element = driver.find_element_by_xpath(email_field_xpath)
+    password_element = driver.find_element_by_xpath(password_field_xpath)
+    login_button_element = driver.find_element_by_xpath(login_button_xpath)
+    email_element.send_keys(POSTNORD_EMAIL)
+    password_element.send_keys(POSTNORD_PASSWORD)
+    login_button_element.click()
 
-            print(f'Page @ {data["page"]} | {len(all_orders)}')
-            data['page'] += 1
+    time.sleep(5)
 
+    # Go to Skicka Direkt Business
+    driver.get("https://portal.postnord.com/shippingtoolpro/")
 
+    time.sleep(5)
 
-def save_customers_on_file(customers):
-    with open('customers.pkl', 'wb') as f:
-        pickle.dump(customers, f)
+    # Close introduction screen
+    close_intro_xpatch = '/html/body/div[1]/div/onboarding/div/main/material-icon'
+    close_intro_element = driver.find_element_by_xpath(close_intro_xpatch)
+    close_intro_element.click()
 
+    # Initate new order
+    # press frakt // redir to @Page Mottagare
 
-def load_customers_on_file():
-    with open('customers.pkl', 'rb') as f:
-        customers_on_file = pickle.load(f)
-        return customers_on_file
+    # @Page Mottagare
+    # State För och Efternamn '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[3]/div/field-label[1]/label/ng-transclude/input'
+    # if c/o not empty state co '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[3]/div/field-label[1]/label/ng-transclude/input'
+    # state Adress1 '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[4]/div[1]/field-label/label/ng-transclude/input'
+    # state Adress2 '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[4]/div[2]/field-label/label/ng-transclude/input'
+    # state Postnummer '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[4]/div[2]/field-label/label/ng-transclude/input'
+    # state Phone Number: '//*[@id="recipient-tel"]'
+    # state Email '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/fieldset[4]/div[3]/field-label[1]/label/ng-transclude/input'
+    # click Välj försändelse '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-sender-recipient-recipient/form/button'
 
+    # Välj Försändelse
+    # Click Lätt : '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type/fieldset/div/label[1]/input'
+    # Depending on weight: '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type-pane/new-shipment-details-weight/fieldset/label/div[1]/input'
+        # 250g valueNow= 3
+        # 500g valueNow= 4
+        # 1kg valueNow= 5
+        # 2kg valueNow= 6
+    # Click Klimatkompensation '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type-pane/new-shipment-details-addons/fieldset[2]/div/div[2]/new-shipment-details-addon/div/div/label/input'
+        # np_empty / ng_not_empty
+    # state Bokningsref '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-description/fieldset/div[1]/field-label[1]/label/ng-transclude/input'
+    # state Beskrivning '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-description/fieldset/div[1]/field-label[2]/label/ng-transclude/input'
+    # click spara försändelse
 
-def is_member(str):
-    data = {"search": str}
-    res = wcapi.get("customers/", params=data).json()
-    if len(res) == 0:
-        return False
-    else:
-        return True
+    ### @Page Sammanfattning https://portal.postnord.com/shippingtoolpro/new-shipment/summary
+
+    # if more orders:
+        # click Lägg till försändelse '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/header/a'
+        ## repeat from @Page Mottagare
+    # else:
+        # click Bekräfta Order '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/button"
+
 
 
 def main():
-    # print all orders until orders() lenght is 0.
-    # save  orders to dat file
+    cred = {
+        "url": "https://portal.postnord.com/login/"
+    }
 
-    # print(len(orders(data)))
-    # for ord in orders(data):
-    #     print(f'{ord["id"]} - Created {ord["date_created"]} - Order Value - {ord["total"]}')
+    login_to_postnord()
+
+    # orders = fetch_all_orders("processing")
+    # print([is_member(order['customer_id']) for order in orders])
+    # for order in orders:
     #
-    # print(order(2))
+    #     print(is_member(order["customer_id"]), order["id"])
 
-    # allcusts = fetch_all_customers()
-    # for cust in allcusts:
-    #     print(cust)
-    #save_customers_on_file(allCusts)
-
-    # custs = load_customers_on_file()
-    # for c in custs:
-    #      print(f"{c['id']} {c['first_name']} {c['last_name']} {c['email']}")
-         # print(f'is member {is_member(c["email"])}')
-
-    # email = "jonasolsone@hotmail.com"
-    # print(is_member(email))
-    customers = fetch_all_customers()
-    print([cust['id'] for cust in customers])
 
 if __name__ == '__main__':
     main()
-
-
-
