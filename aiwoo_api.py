@@ -9,7 +9,6 @@ wcapi = API(
     version=VERSION
 )
 
-
 # Fetch all orders from server
 # status options: pending, processing, on-hold, completed, cancelled, refunded, failed and trash. Default is pending.
 def fetch_all_orders(status):

@@ -1,10 +1,11 @@
 from aiwoo_api import *
 from config import *
 from selenium import webdriver
+from orders import *
 import time
 
-def login_to_postnord():
 
+def login_to_postnord():
     driver = webdriver.Firefox()
     driver.get('https://portal.postnord.com/login/')
 
@@ -40,7 +41,7 @@ def login_to_postnord():
     close_intro_element = driver.find_element_by_xpath(close_intro_xpatch)
     close_intro_element.click()
 
-    # Initate new order
+    # Initiate new order
     # press frakt // redir to @Page Mottagare
 
     # @Page Mottagare
@@ -56,12 +57,12 @@ def login_to_postnord():
     # Välj Försändelse
     # Click Lätt : '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type/fieldset/div/label[1]/input'
     # Depending on weight: '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type-pane/new-shipment-details-weight/fieldset/label/div[1]/input'
-        # 250g valueNow= 3
-        # 500g valueNow= 4
-        # 1kg valueNow= 5
-        # 2kg valueNow= 6
+    # 250g valueNow= 3
+    # 500g valueNow= 4
+    # 1kg valueNow= 5
+    # 2kg valueNow= 6
     # Click Klimatkompensation '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-product-type-pane/new-shipment-details-addons/fieldset[2]/div/div[2]/new-shipment-details-addon/div/div/label/input'
-        # np_empty / ng_not_empty
+    # np_empty / ng_not_empty
     # state Bokningsref '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-description/fieldset/div[1]/field-label[1]/label/ng-transclude/input'
     # state Beskrivning '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-details/form/div/new-shipment-details-description/fieldset/div[1]/field-label[2]/label/ng-transclude/input'
     # click spara försändelse
@@ -69,20 +70,21 @@ def login_to_postnord():
     ### @Page Sammanfattning https://portal.postnord.com/shippingtoolpro/new-shipment/summary
 
     # if more orders:
-        # click Lägg till försändelse '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/header/a'
-        ## repeat from @Page Mottagare
+    # click Lägg till försändelse '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/header/a'
+    # repeat from @Page Mottagare
     # else:
-        # click Bekräfta Order '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/button"
-
+    # click Bekräfta Order '/html/body/div[1]/div/ui-view/main-columns/main/new-shipment-summary/button"
 
 
 def main():
-    cred = {
-        "url": "https://portal.postnord.com/login/"
-    }
+    # cred = {
+    #     "url": "https://portal.postnord.com/login/"
+    # }
+    #
+    # login_to_postnord()
 
-    login_to_postnord()
-
+    orders = get_orders('processing')
+    print([o.customer for o in orders])
     # orders = fetch_all_orders("processing")
     # print([is_member(order['customer_id']) for order in orders])
     # for order in orders:

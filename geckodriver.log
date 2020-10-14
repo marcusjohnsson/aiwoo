@@ -246,3 +246,8 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1602591073992	Marionette	INFO	Listening on port 65022
 1602591074040	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602658492509	geckodriver	INFO	Listening on 127.0.0.1:54244
+1602658493512	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile92I19n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602658499209	Marionette	INFO	Listening on port 54255
+1602658499228	Marionette	WARN	TLS certificate errors will be ignored for this session
