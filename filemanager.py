@@ -1,11 +1,12 @@
 import pickle
 
-def save_customers_on_file(customers):
-    with open('customers.pkl', 'wb') as f:
-        pickle.dump(customers, f)
+def picklit(file, name):
+    filename = name + '.pkl'
+    with open(filename, 'wb') as f:
+        pickle.dump(file, f)
 
-def load_customers_on_file():
-    with open('customers.pkl', 'rb') as f:
-        customers_on_file = pickle.load(f)
-        return customers_on_file
+def unpicklit(file):
+    filename = file + '.pkl'
+    with open(filename, 'rb') as f:
+        return pickle.load(f)
 

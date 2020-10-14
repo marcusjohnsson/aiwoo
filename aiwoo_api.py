@@ -60,7 +60,7 @@ def fetch_all_customers():
 
 
 # Checks if customer is a former member.
-# Broken, since fetch_all_customers() is broken it does run reliably.
+# Broken, since fetch_all_customers() is broken it does run reliably, yields false positive.
 def is_member(str):
     data = {"search": str}
     res = wcapi.get("customers/", params=data).json()

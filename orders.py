@@ -1,14 +1,14 @@
 from aiwoo_api import *
 
 class Order:
-    def __init__(self, id, date_created, total, status, customer, shipping, line_items, weight=0):
+    def __init__(self, id, date_created, total, status, customer, shipping, products, weight=0):
         self.id = id
         self.date_created = date_created
         self.total = total
         self.status = status
         self.customer = customer
         self.shipping = shipping
-        self.line_items = line_items
+        self.products = products
         self.weight = weight
 
 
@@ -31,7 +31,7 @@ def get_orders(status):
                 customer = {
                         'id': o['customer_id'],
                         'first_name': o['billing']['first_name'],
-                        'last_name': o['billing']['first_name'],
+                        'last_name': o['billing']['last_name'],
                         'email': o['billing']['email'],
                         'phone': o['billing']['phone']
                     },
@@ -45,9 +45,8 @@ def get_orders(status):
                     'city': o['shipping']['city'],
                     'state': o['shipping']['state'],
                     'country': o['shipping']['country'],
-
                 },
-                line_items = o['line_items'],
+                products = o['line_items'],
                 weight = determine_shipping_weight(o['line_items'])
             )
         )

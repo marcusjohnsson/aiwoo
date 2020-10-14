@@ -251,3 +251,272 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
 1602658499209	Marionette	INFO	Listening on port 54255
 1602658499228	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602669868736	Marionette	INFO	Stopped listening on port 65022
+1602669872029	Marionette	INFO	Stopped listening on port 54255
+1602680333575	geckodriver	INFO	Listening on 127.0.0.1:56548
+1602680334587	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile3ua0CI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680340265	Marionette	INFO	Listening on port 56559
+1602680340307	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602680342878	Marionette	ERROR	[19] No reply from Marionette:Register
+1602680343180	Marionette	INFO	Stopped listening on port 56559
+1602680352889	geckodriver	INFO	Listening on 127.0.0.1:56656
+1602680353900	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilehzBzMp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680358208	Marionette	INFO	Listening on port 56667
+1602680358229	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602680621706	geckodriver	INFO	Listening on 127.0.0.1:56846
+1602680622713	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileNZ7EiT"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680627131	Marionette	INFO	Listening on port 56857
+1602680627179	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602680629509	Marionette	ERROR	[19] No reply from Marionette:Register
+1602680629891	Marionette	INFO	Stopped listening on port 56857
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "ContentParent: id=113728000"
+1602680639846	geckodriver	INFO	Listening on 127.0.0.1:56936
+1602680640857	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileoHEnfq"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602680644948	Marionette	INFO	Listening on port 56947
+1602680645009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602681191294	Marionette	INFO	Stopped listening on port 56667
+1602681194676	Marionette	INFO	Stopped listening on port 56947
+1602681199659	geckodriver	INFO	Listening on 127.0.0.1:57190
+1602681200670	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilefuvN8Y"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681205648	Marionette	INFO	Listening on port 57201
+1602681205722	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xAC0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681207489	Marionette	ERROR	[19] No reply from Marionette:Register
+1602681207774	Marionette	INFO	Stopped listening on port 57201
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1602681277705	geckodriver	INFO	Listening on 127.0.0.1:57292
+1602681278707	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileQvbjVe"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681283462	Marionette	INFO	Listening on port 57303
+1602681283559	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681285723	Marionette	ERROR	[19] No reply from Marionette:Register
+1602681286016	Marionette	INFO	Stopped listening on port 57303
+1602681297391	geckodriver	INFO	Listening on 127.0.0.1:57385
+1602681298400	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile0glERH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681303058	Marionette	INFO	Listening on port 57396
+1602681303176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681304656	Marionette	ERROR	[16] No reply from Marionette:Register
+1602681304931	Marionette	INFO	Stopped listening on port 57396
+1602681326413	geckodriver	INFO	Listening on 127.0.0.1:57477
+1602681327431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileKoc2ti"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681332833	Marionette	INFO	Listening on port 57488
+1602681332891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602681493737	geckodriver	INFO	Listening on 127.0.0.1:57652
+1602681494754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileDfwBXo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681499927	Marionette	INFO	Listening on port 57663
+1602681499968	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681502068	Marionette	ERROR	[19] No reply from Marionette:Register
+1602681502335	Marionette	INFO	Stopped listening on port 57663
+1602681510436	geckodriver	INFO	Listening on 127.0.0.1:57754
+1602681511444	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile7hTuk6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681516246	Marionette	INFO	Listening on port 57765
+1602681516330	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681518431	Marionette	ERROR	[19] No reply from Marionette:Register
+1602681518722	Marionette	INFO	Stopped listening on port 57765
+1602681539140	geckodriver	INFO	Listening on 127.0.0.1:57848
+1602681540153	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilehGMmks"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681545486	Marionette	INFO	Listening on port 57859
+1602681545503	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681547972	Marionette	ERROR	[19] No reply from Marionette:Register
+1602681548247	Marionette	INFO	Stopped listening on port 57859
+1602681552128	Marionette	INFO	Stopped listening on port 57488
+1602681562105	geckodriver	INFO	Listening on 127.0.0.1:57957
+1602681563114	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilexbqySN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681567624	Marionette	INFO	Listening on port 57968
+1602681567689	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390140,name=PContent::Msg_CommitBrowsingContextTransaction) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602681569383	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "ContentParent: id=11af5d000"
+1602681569715	Marionette	INFO	Stopped listening on port 57968
+1602681605039	geckodriver	INFO	Listening on 127.0.0.1:58061
+1602681606054	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile1hw555"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602681610247	Marionette	INFO	Listening on port 58072
+1602681610288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602682056050	geckodriver	INFO	Listening on 127.0.0.1:58256
+1602682057123	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofilerOzqkm"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602682062663	Marionette	INFO	Listening on port 58267
+1602682062736	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602682064687	Marionette	ERROR	[19] No reply from Marionette:Register
+1602682064966	Marionette	INFO	Stopped listening on port 58267
+1602682072562	geckodriver	INFO	Listening on 127.0.0.1:58360
+1602682073574	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileKBzIwV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602682078894	Marionette	INFO	Listening on port 58371
+1602682078982	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602682219599	geckodriver	INFO	Listening on 127.0.0.1:58537
+1602682220617	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileKEw9N3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602682225853	Marionette	INFO	Listening on port 58548
+1602682225904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602683415543	geckodriver	INFO	Listening on 127.0.0.1:58864
+1602683416557	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileOLQ1qQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683421952	Marionette	INFO	Listening on port 58876
+1602683422017	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602683424446	Marionette	ERROR	[19] No reply from Marionette:Register
+1602683424812	Marionette	INFO	Stopped listening on port 58876
+1602683429497	Marionette	INFO	Stopped listening on port 58072
+1602683432883	Marionette	INFO	Stopped listening on port 58371
+1602683435496	Marionette	INFO	Stopped listening on port 58548
+1602683442345	geckodriver	INFO	Listening on 127.0.0.1:58964
+1602683443356	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofiledgW10n"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683448571	Marionette	INFO	Listening on port 58975
+1602683448659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602683816724	geckodriver	INFO	Listening on 127.0.0.1:59168
+1602683817740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileW2KG4Z"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683823740	Marionette	INFO	Listening on port 59180
+1602683823760	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602683825894	Marionette	ERROR	[19] No reply from Marionette:Register
+1602683826271	Marionette	INFO	Stopped listening on port 59180
+1602683874695	geckodriver	INFO	Listening on 127.0.0.1:59279
+1602683875704	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofileuqQOAd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602683881142	Marionette	INFO	Listening on port 59290
+1602683881209	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602684218777	geckodriver	INFO	Listening on 127.0.0.1:59489
+1602684219780	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile8WBLW3"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602684225711	Marionette	INFO	Listening on port 59500
+1602684225822	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0018,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602684227982	Marionette	ERROR	[19] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1602684228369	Marionette	INFO	Stopped listening on port 59500
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "ContentParent: id=115822000"
+1602684242337	geckodriver	INFO	Listening on 127.0.0.1:59604
+1602684243342	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile24pUxK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602684248458	Marionette	INFO	Listening on port 59615
+1602684248502	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xAC0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1602684250659	Marionette	ERROR	[19] No reply from Marionette:Register
+1602684251033	Marionette	INFO	Stopped listening on port 59615
+1602684267799	geckodriver	INFO	Listening on 127.0.0.1:59700
+1602684268805	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gs/chdt2vt91_z0wm5mx9n5ry900000gn/T/rust_mozprofile7yoSS6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602684273613	Marionette	INFO	Listening on port 59711
+1602684273711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602689668271	Marionette	INFO	Stopped listening on port 58975
+1602689672558	Marionette	INFO	Stopped listening on port 59290
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1D0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1602689675046	Marionette	INFO	Stopped listening on port 59711
