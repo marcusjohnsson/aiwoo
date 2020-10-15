@@ -6,3 +6,8 @@ URL = ""
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
 VERSION = ""
+
+Set Postnord Credentials:
+
+POSTNORD_EMAIL = ""
+POSTNORD_PASSWORD = ""
