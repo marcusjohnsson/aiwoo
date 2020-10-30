@@ -1,5 +1,6 @@
 from config import *
 from woocommerce import API
+
 # DOCS: https://woocommerce.github.io/woocommerce-rest-api-docs/?python#introduction
 
 wcapi = API(
@@ -8,6 +9,7 @@ wcapi = API(
     consumer_secret=CONSUMER_SECRET,
     version=VERSION
 )
+
 
 # Fetch all orders from server
 # status options: pending, processing, on-hold, completed, cancelled, refunded, failed and trash. Default is pending.
@@ -32,8 +34,6 @@ def fetch_all_orders(status):
 
             print(f'Page @ {data["page"]} | {len(all_orders)}')
             data['page'] += 1
-
-
 
 
 # Fetch all customers from server
